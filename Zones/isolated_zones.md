@@ -1,5 +1,5 @@
 ---
-title: Splitting large zones
+title: Isolated zones
 tags:
   - mapping
   - zones
