@@ -213,7 +213,7 @@ You can stamp the prefab and move the spawn points around, but **beware of any t
 
 [Player Respawn Point Prefab]([Zones/config.zip](https://github.com/HarryBo021/Wiki/blob/main/Zones/respawn_points.rar))
 
-Please be aware, structs can have models assigned to them, which is why mine appear as the player models. These only show that way within radiant, they will be invisible as normal in game. If you seem to have a broken struct in radiant when using my prefab, you can just delete the model KVP from the structs, as its likely you may not have these models in your mod tools.
+Please be aware, structs can have models assigned to them, which is why mine appear as the player models. These only show that way within radiant, they will be invisible as normal in game. If you seem to have a broken struct in radiant when using my prefab, you can just delete the model KVP from the structs, as its likely you may not have these models in your mod tools. I have done this as I find it useful for seeing what structs are when developing in radiant.
 
 ---
 # Credits
