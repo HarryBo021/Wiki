@@ -57,6 +57,7 @@ all you need to do, is duplicate the line and rename it to yours :
 ```cpp
 function custom_add_weapons()
 {
+	zm_weapons::load_weapon_spec_from_table("gamedata/weapons/zm/zm_levelcommon_weapons.csv", 1);
 	zm_weapons::load_weapon_spec_from_table("gamedata/weapons/zm/zm_my_table.csv", 1);
 }
 ```
