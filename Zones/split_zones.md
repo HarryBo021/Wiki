@@ -76,9 +76,9 @@ function usermap_test_zone_init()
 }
 ```
 
-Note, that I am using the same `script flag` to open both zones. I have made 2b adjacent to 2a. I have also set both zones as adjacent to start zone. So zombies should spawn, in all 3 zones if you are in any of them.
+Note, that I am using the same `script flag` to open both zones. I have made 2b adjacent to 2a. I have also set both zones as adjacent to the start zone. So zombies should spawn, in all 3 zones if you are in any of them.
 
-This is a small example, you could have 8 or 9 zones for example, you need to manage the adjacent appropriately if you want the spawning to remain close
+This is a small example, you could have 8 or 9 zones for example, you need to manage the adjacent appropriately if you want the spawning to remain close.
 
 <table>
   <tr>
