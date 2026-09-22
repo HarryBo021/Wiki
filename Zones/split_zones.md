@@ -36,7 +36,7 @@ Here is a example of how a basic start zone would look. This is identical to the
   </tr>
 </table>
 
-The next step is to set up our split zone, for the sake of this tutorial I will not make a huge one, I will simply split the area beside in to two zones. Ill call these `zone_2a` and `zone_2b`, but you can name them anything at all.
+The next step is to set up our split zone, for the sake of this tutorial I will not make a huge one, I will simply split the area beside it in to two zones. Ill call these `zone_2a` and `zone_2b`, but you can name them anything at all.
 
 <table>
   <tr>
