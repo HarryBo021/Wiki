@@ -16,7 +16,7 @@ discord:
 # Overview
 ---
 
-The mystery box and wall weapons rely on weapon tables in order to work. These contain settings such as prices and if the weapons should appear in the mystery box. However these tables have a limt ( I think its 48 
+The mystery box and wall weapons rely on weapon tables in order to work. These contain settings such as prices and if the weapons should appear in the mystery box. However these tables have a limit ( I think its 48 
 but I cannot remember exactly ).
 
 This can pose a problem if you want a lot of weapons in your map, you may have guns showing as costing 0 points, or simply never showing showing in the box rotation.
