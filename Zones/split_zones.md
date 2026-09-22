@@ -60,7 +60,7 @@ First lets talk about what adjacent zones actually means.
 
 The way the game keeps things happening close to players, is by us telling it what zones are close to other zones.
 
-So when you set a zone as _adjacent_ to another, you are saying if the player is in one of these zones, then zombies should spawn in both the zone they are in, but also any zone that has been registered as _adjacent_
+So when you set a zone as _adjacent_ to another, you are saying if the player is in one of these zones, then zombies should spawn in both the zone they are in, but also any zone that has been registered as _adjacent_.
 
 Open `your map name.gsc` and modify this function
 
