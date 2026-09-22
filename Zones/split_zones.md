@@ -107,6 +107,20 @@ I the above example, you would **not make zone 0 adjacent to zone 3** for exampl
 
 I've used windows in my example to make it easier to test the spawning. When experimenting I advise using just one spawn point in each zone, to verify its working as desired. Then you are free to add more.
 
+Example for your gsc :
+
+```cpp
+function usermap_test_zone_init()
+{
+    level flag::init( "always_on" );
+    level flag::set( "always_on" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_2",        "open_big_zone" ); // ADD ME
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_5",        "open_big_zone" ); // ADD ME
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_6",        "open_big_zone" ); // ADD ME
+}
+```
+
 ---
 # Player respawn points
 ---
