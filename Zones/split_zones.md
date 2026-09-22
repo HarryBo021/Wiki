@@ -58,7 +58,7 @@ Thats it for radiant, now we need to do the scripting. This is quite simple real
 
 First lets talk about what adjacent zones actually means.
 
-The way the game keeps things happening close to players, is by us telling it what zones are close to other zones.
+The way the game keeps things happening close to players, is by us telling it what zones are close to other zones. Some clean-up manager scripts ( if you are actually using one ) also use this to make zombies despawn and respawn when you travel several _zones_ away, rather than allow them to slowly follow you.
 
 So when you set a zone as _adjacent_ to another, you are saying if the player is in one of these zones, then zombies should spawn in both the zone they are in, but also any zone that has been registered as _adjacent_.
 
