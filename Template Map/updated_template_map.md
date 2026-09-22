@@ -23,7 +23,7 @@ discord:
 
 
 
-Thats it! The game will now properly load both tables side by side, breaking the arbitrary limit, or allowing you to simply add to a maps existing table without changing it.
+Thats it! When creating a new zombie map as normal, you will now be greeted with the updated start up environment!
 
 ---
 # Credits
