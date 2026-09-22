@@ -1,5 +1,5 @@
 ---
-title: Splitting large zones
+title: Increasing the weapon table limit for mystery box guns
 tags:
   - scrtiping
   - weapons
