@@ -18,7 +18,11 @@ discord:
 ---
 
 There may be times you have a zone away from the action, that perhaps players will teleport to and away from. Or perhaps a area you can drop down from, but not get back up to the same way. These are zones
-we do *NOT* want to treat as adjacent zones. This is actually very simple
+we do *NOT* want to treat as adjacent zones. 
+
+We only want zombies to be spawning in these areas, when someone is actually inside them.
+
+This is actually very simple.
 
 ---
 # Scripting
