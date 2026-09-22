@@ -115,10 +115,66 @@ function usermap_test_zone_init()
     level flag::init( "always_on" );
     level flag::set( "always_on" );
 
-    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_2",        "open_big_zone" ); // ADD ME
-    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_5",        "open_big_zone" ); // ADD ME
-    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_6",        "open_big_zone" ); // ADD ME
+    zm_zonemgr::add_adjacent_zone( "zone_0",           "zone_7",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_0",           "zone_8",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_0",           "zone_9",        "open_big_zone" );
+
+	zm_zonemgr::add_adjacent_zone( "zone_7",           "zone_4",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_7",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_7",           "zone_8",        "open_big_zone" );
+
+	zm_zonemgr::add_adjacent_zone( "zone_8",           "zone_4",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_8",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_8",           "zone_6",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_8",           "zone_7",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_8",           "zone_9",        "open_big_zone" );
+
+	zm_zonemgr::add_adjacent_zone( "zone_9",           "zone_8",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_9",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_9",           "zone_6",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_4",           "zone_1",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_4",           "zone_2",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_4",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_4",           "zone_7",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_4",           "zone_8",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_1",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_2",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_3",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_4",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_6",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_7",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_8",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_9",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_6",           "zone_2",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_6",           "zone_3",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_6",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_6",           "zone_8",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_6",           "zone_9",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_1",           "zone_2",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_1",           "zone_4",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_1",           "zone_5",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_2",           "zone_1",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_2",           "zone_3",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_2",           "zone_4",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_2",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_2",           "zone_6",        "open_big_zone" );
+
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_2",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_5",        "open_big_zone" );
+    zm_zonemgr::add_adjacent_zone( "zone_3",           "zone_6",        "open_big_zone" );
 }
+```
+
+Some of these are duplicates and can be removed, but for ease on the eye you can just leave them. For example these two lines are doing the same thing :
+
+```cpp
+zm_zonemgr::add_adjacent_zone( "zone_5",           "zone_1",        "open_big_zone" );
+zm_zonemgr::add_adjacent_zone( "zone_1",           "zone_5",        "open_big_zone" );
 ```
 
 ---
