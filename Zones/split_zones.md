@@ -213,9 +213,6 @@ You can stamp the prefab and move the spawn points around, but **beware of any t
 
 [Player Respawn Point Prefab]([Zones/config.zip](https://github.com/HarryBo021/Wiki/blob/main/Zones/respawn_points.rar))
 
-*NOTE*
-The player respawn prefab _must_ be located in the same place as I have it or radiant will show a broken prefab
-
 ---
 # Credits
 ---
