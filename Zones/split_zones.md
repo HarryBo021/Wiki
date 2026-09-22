@@ -105,7 +105,7 @@ This is a small example, you could have 8 or 9 zones for example, you need to ma
 
 In the above example, you would **not make zone 0 adjacent to zone 3** for example, as that will result in the same issues as using one large zone, you would make zone 3 adjacent to zones **2, 5 and 6 only**.
 
-I've used windows in my example to make it easier to test the spawning. When experimenting I advise using just one spawn point in each zone, to verify it's working as desired, Then you are free to add more.
+I've used windows in my example to make it easier to test the spawning. When experimenting I advise using just one spawn point in each zone, to verify it's working as desired, then you are free to add more.
 
 Example for your gsc :
 
