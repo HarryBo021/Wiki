@@ -170,6 +170,8 @@ function usermap_test_zone_init()
 }
 ```
 
+In the above, the game will know that zones 4 and 6, are *NOT* beside each other.
+
 Some of these are duplicates and can be removed, but for ease on the eye you can just leave them. For example these two lines are doing the same thing :
 
 ```cpp
