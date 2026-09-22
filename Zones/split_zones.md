@@ -62,7 +62,7 @@ The way the game keeps things happening close to players, is by us telling it wh
 
 So when you set a zone as _adjacent_ to another, you are saying if the player is in one of these zones, then zombies should spawn in both the zone they are in, but also any zone that has been registered as _adjacent_
 
-Open `your map name.gsc`
+Open `your map name.gsc` and modify this function
 
 ```cpp
 function usermap_test_zone_init()
@@ -70,9 +70,9 @@ function usermap_test_zone_init()
     level flag::init( "always_on" );
     level flag::set( "always_on" );
 
-    zm_zonemgr::add_adjacent_zone( "start_zone",        "zone_2a",        "open_zone_2" );
-    zm_zonemgr::add_adjacent_zone( "start_zone",        "zone_2b",        "open_zone_2" );
-    zm_zonemgr::add_adjacent_zone( "zone_2a",           "zone_2b",        "open_zone_2" );
+    zm_zonemgr::add_adjacent_zone( "start_zone",        "zone_2a",        "open_zone_2" ); // ADD ME
+    zm_zonemgr::add_adjacent_zone( "start_zone",        "zone_2b",        "open_zone_2" ); // ADD ME
+    zm_zonemgr::add_adjacent_zone( "zone_2a",           "zone_2b",        "open_zone_2" ); // ADD ME
 }
 ```
 
