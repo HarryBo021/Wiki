@@ -48,7 +48,7 @@ The next step is to set up our split zone, for the sake of this tutorial I will 
   </tr>
 </table>
 
-Both zones will of course need their own zombie spawn points attached. I have added windows on both sides of the room, the zombie spawn points are linked to one zone each.
+Both zones will of course need their own zombie spawn points attached. I have added windows on both sides of the room, the zombie spawn points are linked to one of the split zones each.
 
 Thats it for radiant, now we need to do the scripting. This is quite simple really.
 
