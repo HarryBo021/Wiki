@@ -52,7 +52,7 @@ function custom_add_weapons()
 }
 ```
 
-all you need to do, is duplicate the line and rename it to yours :
+All you need to do, is duplicate the line and rename it to yours :
 
 ```cpp
 function custom_add_weapons()
