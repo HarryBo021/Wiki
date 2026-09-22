@@ -27,7 +27,7 @@ There is a solution to this, which this tutorial will cover. You can _split_ a z
 # Radiant
 ---
 
-Here is a example of how a basic start zone would look. This is identical to the one provided when you first create a map in the Black Ops 3 mod tools
+Here is a example of how a basic start zone would look. This is identical to the one provided when you first create a map in the Black Ops 3 mod tools.
 
 <table>
   <tr>
