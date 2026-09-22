@@ -15,12 +15,20 @@ discord:
 # Overview
 ---
 
+![Template Map Screenshot](https://github.com/HarryBo021/Wiki/blob/main/Template%20Map/template_map_screenshot.png?raw=true)
+
+[Replacement Template Map Download](https://github.com/HarryBo021/Wiki/blob/main/Template%20Map/hb21_template_replacement_v1.0.0.rar)
+
 As many many will be aware, the default start map we are provided with in the Black Ops 3 mod tools has several issues that were never corrected by Treyarch. This package is a update that will overwrite those files
 and provide you with a environment similar to the one we had for the WaW Mod tools. For example the default map is missing the spawners for the hell hounds, therefore will hang when they are due to spawn unless you
 add or disable them.
 
 The scope of this template is to properly set up all the things Treyarch didn't in a simple environment without adding anything to your mod tools. Then upon creating a map you have examples of how these things work
 and can move/delete as you choose - or use them for reference.
+
+The only assets added with this map are some light FX for the perk machines, no need for lighting states and editing the perk prefabs.
+
+The only changed asset is the pack a punch prefab, which _does_ enable the lights using lightstates, as no default FX actually exists for it in any map.
 
 ---
 # This includes
@@ -52,6 +60,8 @@ and can move/delete as you choose - or use them for reference.
 ---
 # Install
 ---
+
+[Replacement Template Map Download](https://github.com/HarryBo021/Wiki/blob/main/Template%20Map/hb21_template_replacement_v1.0.0.rar)
 
 Simply drag and drop the contents of the download in to your Black Ops 3 root directory.
 
