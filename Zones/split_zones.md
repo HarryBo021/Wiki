@@ -21,7 +21,7 @@ When creating maps for Black Ops 3, you may find yourself needing a zone for a v
 the zombies do no respect this and may spawn on the complete other side or a different floor. This would also apply to player respawn points, you could find your friends spawning very far away from you despite
 technically being in the same zone.
 
-There is a solution to this, which this tutorial will cover. You can _split_ a zone in to multiple zones, and register them as _adjacent_ to enable the game to keep everything working as it would in smaller zoned maps.
+There is a solution to this, which this tutorial will cover. You can _split_ a zone in to multiple zones, and register them as _adjacent_ to enable the game to keep everything working as it would in smaller zoned maps. This method simply removes the need to have doors separating them.
 
 ---
 # Radiant
