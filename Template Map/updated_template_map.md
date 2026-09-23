@@ -63,7 +63,7 @@ The only changed asset is the pack a punch prefab, which _does_ enable the light
 
 [Replacement Template Map Download](https://github.com/HarryBo021/Wiki/blob/main/Template%20Map/hb21_template_replacement_v1.0.0.rar)
 
-Simply drag and drop the contents of the download in to your Black Ops 3 root directory.
+Simply drag and drop the contents of the download in to your Black Ops 3 root directory and say _yes_ to overwriting the files.
 
 Thats it! When creating a new zombie map as normal, you will now be greeted with the updated start up environment!
 
