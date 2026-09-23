@@ -53,7 +53,7 @@ The only changed asset is the pack a punch prefab, which _does_ enable the light
 * Pack a punch with lights
 * Multiple lightstates set up
 * 1 working electric trap linked to a door ( so it will not function until you open it )
-* A remapped zombie spawner so it is _already_ be using the correct one ( the USERMAP one )
+* A remapped zombie spawner so it is _already_ using the correct one ( the USERMAP one )
 * Other issues or unnecessary things from the default map removed or corrected
 * A textured map, including caulking unseen areas for examples of good mapping practice
 
