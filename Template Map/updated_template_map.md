@@ -68,6 +68,16 @@ Simply drag and drop the contents of the download in to your Black Ops 3 root di
 Thats it! When creating a new zombie map as normal, you will now be greeted with the updated start up environment!
 
 ---
+# Notes
+---
+
+You may noticed that the Gobblegum machine has missing textures, and no model shows on Deadshot Daquiri's prefab. These will both function correctly in game however. The assets were not included in the mod tools by Treyarch but _are_ loaded in the game.
+
+If you would like to correct these in radiant, downloading Midgets T7 Asset pack will add all the missing assets and far more
+
+[MidgetBlasters T7 Asset Pack]([https://github.com/HarryBo021/Wiki/blob/main/Template%20Map/hb21_template_replacement_v1.0.0.rar](https://github.com/MidgetBlast/T7-Assets))
+
+---
 # Credits
 ---
 Harry Bo21
