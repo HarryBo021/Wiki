@@ -26,7 +26,7 @@ add or disable them.
 The scope of this template is to properly set up all the things Treyarch didn't in a simple environment without adding anything to your mod tools. Then upon creating a map you have examples of how these things work
 and can move/delete as you choose - or use them for reference.
 
-The only assets added with this map are some light FX for the perk machines, no need for lighting states and editing the perk prefabs.
+The only assets added with this map are some light FX for the perk machines, no need for lighting states and editing the perk prefabs and I added the missing Widow's Wine prefab.
 
 The only changed asset is the pack a punch prefab, which _does_ enable the lights using lightstates, as no default FX actually exists for it in any map.
 
