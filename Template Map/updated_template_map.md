@@ -74,7 +74,7 @@ Thats it! When creating a new zombie map as normal, you will now be greeted with
 
 You may noticed that the Gobblegum machine has missing textures, and no model shows on Deadshot Daquiri's prefab. These will both function correctly in game however. The assets were not included in the mod tools by Treyarch but _are_ loaded in the game.
 
-If you would like to correct these in radiant, downloading Midgets T7 Asset pack will add all the missing assets and far more
+If you would like to correct these in radiant, downloading Midgets T7 Asset pack will add all the missing assets and far more.
 
 [Midget Blasters T7 Asset Pack](https://github.com/MidgetBlast/T7-Assets)
 
