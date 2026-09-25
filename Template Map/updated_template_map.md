@@ -56,6 +56,7 @@ The only changed asset is the pack a punch prefab, which _does_ enable the light
 * A remapped zombie spawner so it is _already_ using the correct one ( the USERMAP one )
 * Other issues or unnecessary things from the default map removed or corrected
 * A textured map, including caulking unseen areas for examples of good mapping practice
+* Working dog fog ( can be disabled by commenting out this line in the GSC : level thread dog_fog_monitor(); )
 
 ---
 # Install
