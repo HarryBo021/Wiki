@@ -28,7 +28,7 @@ and can move/delete as you choose - or use them for reference.
 
 The only assets added with this map are some light FX for the perk machines, no need for lighting states and editing the perk prefabs and I added the missing Widow's Wine prefab.
 
-The only changed asset is the pack a punch prefab, which _does_ enable the lights using lightstates, as no default FX actually exists for it in any map.
+The only changed asset is the pack a punch prefab, which _does_ enable the lights using exploder lights, as no default FX actually exists for it in any map.
 
 ---
 # This includes
@@ -50,13 +50,14 @@ The only changed asset is the pack a punch prefab, which _does_ enable the light
 * Example probes
 * Example scripting for zones
 * One line to change player start points at the top of the map GSC
-* Pack a punch with lights
+* Pack a punch with lights via a exploder
 * Multiple lightstates set up
 * 1 working electric trap linked to a door ( so it will not function until you open it )
 * A remapped zombie spawner so it is _already_ using the correct one ( the USERMAP one )
 * Other issues or unnecessary things from the default map removed or corrected
 * A textured map, including caulking unseen areas for examples of good mapping practice
 * Working dog fog ( can be disabled by commenting out this line in the GSC : level thread dog_fog_monitor(); )
+* The rocket shield buildable
 
 ---
 # Install
